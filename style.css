@@ -1,3 +1,24 @@
+header{
+    position: fixed; 
+    width: 100%;
+}
+
+
+.contenant {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+  .texte_centrer {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+  }
+  
+
 
 /*Select Map*/
 *{
