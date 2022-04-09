@@ -10,8 +10,8 @@
     <title>MysteryLand | Accueil</title>
 </head>
 <body>
-    <header class="menu-selection">
-        <div class="navbar bg-base-100">
+    <header class="menu-selection bg-white">
+        <div class="navbar">
           <div class="navbar-start">
             <div class="dropdown">
               <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -59,22 +59,22 @@
     <!-- Selection de map -->
     <div>
       <nav class="slidemenu revealleft-2">
-        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" checked/>
+        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" onclick="afficherTexte('text-bibliotheque')" checked/>
         <label for="slide-item-1">
           <p class="icon" title="Bibliothèque">📚</p><span>Bibliothèque</span>
         </label>
         
-        <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle"/>
+        <input type="radio" name="slideItem" id="slide-item-2" class="slide-toggle" onclick="afficherTexte('text-scenecrime')"/>
         <label for="slide-item-2">
           <p class="icon" title="Scène de crime">🔫</p><span>Scène de crime</span>
         </label>
 
-        <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle"/>
+        <input type="radio" name="slideItem" id="slide-item-3" class="slide-toggle" onclick="afficherTexte('text-prison')"/>
         <label for="slide-item-3">
           <p class="icon" title="Prison">⛓</p><span>Prison</span>
         </label>
 
-        <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle"/>
+        <input type="radio" name="slideItem" id="slide-item-4" class="slide-toggle" onclick="afficherTexte('text-hopitalasile')"/>
         <label for="slide-item-4">
           <p class="icon" title="Hôpital-Asile">🏥</p><span>Hôpital-Asile</span>
         </label>
@@ -83,7 +83,34 @@
         <div class="bar"></div>
         </div>
       </nav>
+    <div class="text-bibliotheque" id="text-bibliotheque">
+      <h2>
+      Le joueur arrive dans un bibliothèque son but : s'en échapper en y cherchant un livre magique.<br>
+      Malheureusement, les choses ne vont pas se passer comme prévu...
+      </h2>
     </div>
+    <div class="text-scenecrime" id="text-scenecrime">
+      <h2>
+      Le joueur arrive dans une scène de crime son but : s'en échapper en élucisant le meurtre.<br>
+      Malheureusement, les choses ne vont pas se passer comme prévu...
+      </h2>
+    </div>
+    <div class="text-prison" id="text-prison">
+      <h2>
+      Le joueur arrive dans une prison son but : s'en évader.<br>
+      Malheureusement, les choses ne vont pas se passer comme prévu...
+      </h2>
+    </div>
+      <div class="text-hopitalasile" id="text-hopitalasile">
+      <h2>
+      Le joueur arrive dans un hôpital-asile son but : s'en échapper en y résolvant des énigmes.<br>
+      Malheureusement, les choses ne vont pas se passer comme prévu...
+      </h2>
+    </div>
+    </div>
+
+
+
     <script src="main.js"></script>
   </body>
 </html>

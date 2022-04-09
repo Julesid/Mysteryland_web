@@ -3,7 +3,6 @@ header{
     width: 100%;
     top: 0px;
     transition: all 0.3s ease-out;
-    background: transparent;
 }
 
 
@@ -146,6 +145,38 @@ header{
 .slidemenu #slide-item-2:checked ~ .slider .bar{ margin-left: 25%; }
 .slidemenu #slide-item-3:checked ~ .slider .bar{ margin-left: 50%; }
 .slidemenu #slide-item-4:checked ~ .slider .bar{ margin-left: 75%; }
+
+
+/*text map*/
+
+.text-bibliotheque h2 {
+    font-size: 16px;
+    padding: 50px;
+    color: #222;
+    text-align: center;
+}
+
+.text-scenecrime h2 {
+    font-size: 16px;
+    padding: 50px;
+    color: #222;
+    text-align: center;
+}
+
+.text-prison h2 {
+    font-size: 16px;
+    padding: 50px;
+    color: #222;
+    text-align: center;
+}
+
+.text-hopitalasile h2 {
+    font-size: 16px;
+    padding: 50px;
+    color: #222;
+    text-align: center;
+}
+
 
 
 /*Animation*/
