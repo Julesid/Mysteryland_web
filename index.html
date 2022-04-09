@@ -38,8 +38,10 @@
       </div>
     </header>
     <div class="home">
-      <h1>MysteryLand</h1>
+      <h1>Mystery<span class="suite">Land</span></h1>
     </div>
+    
+    
     <!-- Dialogue -->
     <div class="index-bienvenue revealright-1"> 
       <h2><strong>Holdo</strong> - Bienvenue à MysteryLand !<br>
@@ -52,6 +54,8 @@
         <strong>Holdo</strong> - Alors, <a class="index-link-git" href="https://github.com/AliiiBenn/MysteryLandProject">commençons</a> !<br>  
       </h2>
     </div>
+    
+    <!--Les maps -->
     <div class="index-maps revealleft-1">
       <h3>Les Maps</h3>
     </div>
@@ -59,7 +63,7 @@
     <!-- Selection de map -->
     <div>
       <nav class="slidemenu revealleft-2">
-        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" onclick="afficherTexte('text-bibliotheque')" checked/>
+        <input type="radio" name="slideItem" id="slide-item-1" class="slide-toggle" onclick="afficherTexte('text-bibliotheque')" onclick="afficherTexte('text-bibliotheque')" checked/>
         <label for="slide-item-1">
           <p class="icon" title="Bibliothèque">📚</p><span>Bibliothèque</span>
         </label>
@@ -83,34 +87,41 @@
         <div class="bar"></div>
         </div>
       </nav>
-    <div class="text-bibliotheque" id="text-bibliotheque">
-      <h2>
-      Le joueur arrive dans un bibliothèque son but : s'en échapper en y cherchant un livre magique.<br>
-      Malheureusement, les choses ne vont pas se passer comme prévu...
-      </h2>
-    </div>
-    <div class="text-scenecrime" id="text-scenecrime">
-      <h2>
-      Le joueur arrive dans une scène de crime son but : s'en échapper en élucisant le meurtre.<br>
-      Malheureusement, les choses ne vont pas se passer comme prévu...
-      </h2>
-    </div>
-    <div class="text-prison" id="text-prison">
-      <h2>
-      Le joueur arrive dans une prison son but : s'en évader.<br>
-      Malheureusement, les choses ne vont pas se passer comme prévu...
-      </h2>
-    </div>
-      <div class="text-hopitalasile" id="text-hopitalasile">
-      <h2>
-      Le joueur arrive dans un hôpital-asile son but : s'en échapper en y résolvant des énigmes.<br>
-      Malheureusement, les choses ne vont pas se passer comme prévu...
-      </h2>
-    </div>
+      <div class="text-bibliotheque" id="text-bibliotheque">
+        <h2>
+        Le joueur arrive dans un bibliothèque son but : s'en échapper en y cherchant un livre magique.<br>
+        Malheureusement, les choses ne vont pas se passer comme prévu...
+        </h2>
+      </div>
+      <div class="text-scenecrime" id="text-scenecrime">
+        <h2>
+        Le joueur arrive dans une scène de crime son but : s'en échapper en élucisant le meurtre.<br>
+        Malheureusement, les choses ne vont pas se passer comme prévu...
+        </h2>
+      </div>
+      <div class="text-prison" id="text-prison">
+        <h2>
+        Le joueur arrive dans une prison son but : s'en évader.<br>
+        Malheureusement, les choses ne vont pas se passer comme prévu...
+        </h2>
+      </div>
+        <div class="text-hopitalasile" id="text-hopitalasile">
+        <h2>
+        Le joueur arrive dans un hôpital-asile son but : s'en échapper en y résolvant des énigmes.<br>
+        Malheureusement, les choses ne vont pas se passer comme prévu...
+        </h2>
+      </div>
     </div>
 
-
-
+    <div class="index-regles revealleft-1">
+      <h3>Les Règles</h3>
+    </div>
+    <div class="index-regles revealright-1">
+      <h2>
+        <strong>Holdo</strong> - Les règles sont simples :<br>
+        1 - S'échapper des différents Donjons.<br>
+        2 - Règle 1.<br>
+        3 - Se référer à la règle 2.
     <script src="main.js"></script>
   </body>
 </html>

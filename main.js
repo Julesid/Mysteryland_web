@@ -54,3 +54,4 @@ function afficherTexte(id) {
         x.style.display = "none";
     }
 }
+
