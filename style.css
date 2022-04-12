@@ -3,6 +3,17 @@ header{
     top: 0px;
 }
 
+footer {
+    background-color: #73b8c6;
+    color: #fff;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    margin-top: 40px;
+    text-align: center;
+    height: 50px;
+}
+
 
 /* Index */
 
@@ -200,6 +211,43 @@ header{
 
 
 
+/* Classement */
+
+.classement-table h3 {
+    color: #000000;
+    text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+    font-size: 150px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+.classement-tableau {
+    padding: 40px 40px 40px 40px;
+}
+
+.classement-tableau table {
+    border: solid 2px #73b8c6;
+}
+
+
+
+/* A propos */
+
+.apropos-table {
+    color: #000000;
+    text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+    font-size: 150px;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+
+
+
 
 /*Animation*/
 
@@ -224,4 +272,66 @@ header{
 }
 .revealleft-2 {
     transition-delay: .2s;
+}
+
+
+
+
+@media screen and (max-width: 900px) {
+    .index-maps h3 {
+        color: #000000;
+        text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+        font-size: 75px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .index-regles h3 {
+        color: #000000;
+        text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+        font-size: 75px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .home h1 {
+        font-size: 50px;
+        padding-left: 100px;
+        padding-top: 360px;
+        color: #fff;
+        text-shadow: 0 20px 25px #2e2e31, 0 40px 60px #2e2e31;
+    }
+    .classement-table h3 {
+        color: #000000;
+        text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+        font-size: 75px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .apropos-table h3 {
+        color: #000000;
+        text-shadow: 0 20px 25px #73b8c6, 0 40px 60px #73b8c6;
+        font-size: 75px;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .index-footer2 h2{
+        display: none;
+    }
+    .index-footer h2{
+        text-align: center;
+    }
+
+    .classement-footer2 h2{
+        display: none;
+    }
+    .classement-footer h2{
+        text-align: center;
+    }
 }
